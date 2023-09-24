@@ -1,0 +1,31 @@
+
+
+antlr -Dlanguage=Python3 Pointer.g4
+
+pyhton pointer.py
+
+[
+comandos internos
+
+select {1,2,3}
+
+avanza INT
+avanza INT,INT
+
+rota INT
+rota INT,INT
+
+rota (avanza INT)INT
+rota (avanza INT)INT,INT
+rota (avanza INT,INT)INT
+rota (avanza INT,INT)INT,INT
+
+mira a INT {arreglar} {no entra en control}
+
+dibuja
+
+desplaza
+
+repite INT instruccion INT
+repite INT instruccion INT,INT
+]
