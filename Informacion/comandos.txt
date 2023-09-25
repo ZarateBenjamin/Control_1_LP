@@ -1,9 +1,12 @@
+make install{para installar todas las dependencias y poder tener un correcto funcionamiento del sistema}
 
+make run {para hacer correr el programa ademas de ejecutar antlr4 con el creador de lenguaje}
 
+{comandos que realiza el make run}
 antlr -Dlanguage=Python3 Pointer.g4
-
 pyhton pointer.py
 
+{comandos internos para el funcionamiento del programa}
 [
 comandos internos
 

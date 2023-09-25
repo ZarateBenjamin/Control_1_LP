@@ -1,0 +1,5 @@
+pygame
+antlr4-python3-runtime
+tkinter
+time 
+math
