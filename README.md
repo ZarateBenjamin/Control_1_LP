@@ -55,6 +55,7 @@ El condicional "_or_" dentro de los tokens se visualiza como "|".
 | rota ('(' advance ')')? intVal (',' intVal)?             | 
 | mirar a INT          | 
 | repite INT : instrucction+          | 
+
 -------------------------
 
 ## Colaboradores
