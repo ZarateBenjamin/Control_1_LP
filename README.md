@@ -45,7 +45,7 @@ La gramática generada abarca las palabras y expresiones permitidas en el progra
 |                          |    repite        | 
 
 
-El condicional "_or_" dentro de los tokens se visualiza como "|"
+El condicional "_or_" dentro de los tokens se visualiza como "|".
 
 | Reglas de la grámatica |       
 |------------------------|
