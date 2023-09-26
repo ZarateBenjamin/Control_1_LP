@@ -30,6 +30,12 @@ Cada color tiene tres características distintas:
 - Desplazamiento: La dirección de movimiento del cuadrado pintado también depende de su dirección de mira, que se define mediante la rotación. Para avanzar, se utiliza el comando "avanza INT". El valor "INT" representa la cantidad de pasos a avanzar.
 - Dibujar: Para activar esta característica, se usa el comando "dibuja". Cuando está activada, el cuadrado pinta su propio color en las casillas que atraviesa mientras se desplaza. Por diseño, cuando el puntero está apuntando en diagonal, también pinta la casilla que se encuentra en la ruta hacia esa diagonal. Se puede desactivar esta característica utilizando el comando "desplaza". Así mismo, los trazos del dibujo tienen jerarquías; es decir, el puntero que se selecciona primero es el que se muestra por encima de los otros colores, en caso de que se decida pintar con otros colores sobre un mismo cuadro.
 
+Para poder seleccionar un puntero, se utiliza la instrucción "select" la cual debe ir acompañada del ID del puntero que se quiera utilizar.
+
+ID de los punteros:
+- 1 Rojo
+- 2 Verde
+- 3 Azul
 Esta solución proporciona una forma intuitiva de crear dibujos en el plano, permitiendo el control de la dirección, el desplazamiento y la capacidad de pintar utilizando colores definidos en la cuadrícula.
 
 Gramática Generada:
