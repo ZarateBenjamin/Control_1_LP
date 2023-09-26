@@ -9,14 +9,13 @@ Fecha de entrega: 26 de septiembre de 2023
 Crear un programa capaz de generar un dibujo en un plano mediante una secuencia de instrucciones. Posteriormente, representar estas instrucciones como un árbol de sintaxis abstracta al final del proceso.
 
 ## Consideraciones
-Para este programa fue utilizada la versión 4.12.0 de Antlr4.
+Para este programa, se utiliza la versión 4.12.0 de Antlr4. Si bien esto no constituye un límite para su ejecución, si se emplea una versión diferente, pueden aparecer advertencias relacionadas con el uso de una versión distinta. Además, las librerías necesarias para ejecutar el programa de manera correcta se encuentran especificadas en el archivo '_requeriments.txt_'
+
 En este programa, hemos definido puntos clave que serán presentados a continuación, incluyendo su ubicación y los nombres de los archivos correspondientes dentro del proyecto :
 * **Tokens:** Archivos correspondientes "_Pointer.tokens_" y "_PointerLexer.tokens_".
 * **Expresiones Regulares y Gramática de Libre Contexto:** Archivos correspondientes "_PointerLexer.py_" y "_Pointer.g4_".
 * **Interpretadores del lenguaje:** Archivos correspondientes "_Pointer.interp_" y "_PointerLexer.interp_".
 * **Recopilador de instrucciones:** Archivos correspondientes "_PointerListener.py_" y "_PointerParser.py_".
-  ###Librerías Requeridas:
-        * 
 
 Dentro del proyecto, se encuentra un archivo que contiene los comandos que se pueden utilizar para llevar a cabo pruebas del mismo, dicho archivo se encuentra en la carpeta  "_Informacion_" con el nombre "_comandos.txt_". Estos comandos deben ser escritos **UNO A UNO**, si no **LAS INSTRUCCIONES NO SERÁN RECONOCIDAS**
 
@@ -34,7 +33,7 @@ Esta solución proporciona una forma intuitiva de crear dibujos en el plano, per
 ### Gramática Generada
 La gramática generada abarca las palabras y expresiones permitidas en el programa, que a su vez comprenden varios símbolos autorizados para ejecutar las instrucciones a través de la consola y así crear nuestro dibujo.
 
-|tokens| instrucciones    |          
+|tokens| instrucciones reconocibles   |          
 |------------------|------------------|
 |intVal : '-'? INT |    select        |           
 |ID: [a-zA-Z_][a-zA-Z0-9_]*|    avanza        |           
